@@ -1,0 +1,8 @@
+target/
+node_modules/
+db/*.bin
+db/*.tmp
+*.so
+*.dylib
+*.dll
+.DS_Store

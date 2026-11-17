@@ -1,0 +1,11 @@
+{
+  "name": "columns",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "cargo build --release --manifest-path crates/columns-core/Cargo.toml",
+    "build:native": "RUSTFLAGS='-C target-cpu=native' cargo build --release --manifest-path crates/columns-core/Cargo.toml",
+    "test": "bun test/columns_and_nerve_test.ts"
+  }
+}
